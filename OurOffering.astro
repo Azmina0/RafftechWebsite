@@ -1,0 +1,488 @@
+---
+// 1. (Landing Page)Insert all html and  
+import '../styles/global.css';
+import '../styles/header.css';
+import '../styles/ouroffering.css';
+import '../styles/footer.css';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Our Offering|Raffcomm Technologies Sdn. Bhd.</title>
+	</head>
+	<body>
+
+ <!-- Hero Section -->
+  <section class="hero-section">
+    <!-- Header -->
+<header class="navbar">
+  <div class="nav-top">
+    <a href="#">Our Offering</a>  
+    <a href="#" class="company-link">The Company</a>
+    <!-- Secondary navigation menu for "The Company" -->
+    <div class="sub-nav" id="companySubNav">
+      <a href="#">Our Offering</a>
+      <a href="#">The Company</a>
+      <a href="#">Support</a>
+    </div>
+    <a href="#">Support</a>
+  </div>
+ <!-- Container for logo and border in the same row -->
+  <div class="logo-border-container">
+    <div class="logo-container">
+      <img src="https://www.rafftech.my/assets/img/rafftech.png" alt="Logo" class="nav-logo">
+    </div>
+    <div class="border-top"></div>
+  </div>
+  
+  <!-- Apply border to this container -->
+  <div class="nav-bottom">
+    <a href="#">LHDNM e-Invoice</a>
+    <a href="#">SSM e-Info</a>
+  </div>
+</header>
+    <img src="UpperDecoration.png" alt="Background Decoration" class="hero-bg" />
+    <div class="hero-content">
+      <h1 class="titleLanding">Our Offering</h1>
+    </div>
+  </section>
+
+    <!-- Main Accordion Content -->
+    <main>
+      <section class="accordion-container">
+        <!-- Accordion Item 1 -->
+        <div class="accordion">
+          <div class="accordion-header">
+             <div class="header-content">
+            <img src="ProductBigTitle.png" alt="Background Animation" class="BigTitleAccordion"/>
+            <span>Product</span>
+          </div>
+           <span class="arrow">&#9660;</span>
+          </div>
+          <div class="accordion-content">
+            <section class="accordion2-container">
+
+              <!-- Accordion2: Digital Certificate -->
+              <div class="accordion2">
+                <div class="accordion2-header">
+                  <div class="header2-content">
+                    <img src="DigitalCertificate.png" alt="SecondTitleAccordion" class="SecondTitleAccordion" />
+                    <span>Digital Certificate</span>
+                </div>
+                <span class="arrow2">&#9660;</span>
+              </div>
+                <div class="accordion2-content">
+
+                  <!-- Accordion3: Digital ID -->
+                  <div class="accordion3">
+                    <div class="accordion3-header">
+                      <div class="header3-content">
+                        <img src="DigitalID.png" alt="ThirdTitleAccordion" class="ThirdTitleAccordion"/>
+                        <span>Digital ID</span>
+                    </div>
+                    <span class="arrow3">&#9660;</span>
+                  </div>
+                    <div class="accordion3-content">
+                      <p class="digitalID_FirstRow">
+                        Digital ID or Digital Certificate is like a digital identity card to verify the authenticity
+                        of a person or organisation. It is an electronic document that proves ownership of a public key,
+                        enabling secure information exchange over the internet. Issued by a trusted Certificate Authority (CA),
+                        it contains key details such as the certificate holder’s name, public key, CA’s signature, and expiration date.
+                      <p class="digitalID_TitleSecond">
+                        Types of
+                        <p class="digitalID_TitleSecond_2">
+                          Digital Certificate
+                        </p>
+                      </p>
+                    </p>   
+                    <div class="ContainerWrapper">  
+                      <div class="contents_DigitalCertificateIndividual">
+                        <img src="IndividualCertificateBox.png" alt="IndividualOrganisationsChart" class="IndividualOrganisationsChart"/>
+                        <img src="OrganisationCertificateBox.png" alt="OrganisationCertificateBox" class="OrganisationCertificateBox"/>
+                      </div>  
+                    </div>
+                    <p class="DigitalCertificate_Explanation">
+                      At RAFFTECH, we provide trusted digital certificates to help 
+                      safeguard your online communications and protect your digital 
+                      assets with confidence.
+                      <p class="DigitalCertificate_Explanation2">
+                        How to apply for Digital Certificates
+                      </p>
+                    </p>
+                      <div class="ContainerWrapper">  
+                        <div class="contents_ApplyDigitalCertificates">
+                           <!-- First row -->
+    <div class="bubble-row">
+      <img src="1bubbleDigitalID.png" alt="1 bubble Image" class="satububbleDigitalIDgambar" />
+      <img src="2bubbleDigital.png" alt="2 bubble Image" class="duabubbleDigitalpnggambar" />
+    </div>
+    
+    <!-- Second row -->
+    <div class="bubble-row">
+      <img src="3bubbleDigital.png" alt="3 bubble Image" class="tigabubbleDigital" />
+      <img src="4DigitalBubble.png" alt="4 bubble Image" class="empatbubbleDigital" />
+                        </div>
+                        </div>  
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Accordion3: S/MIME (If open ) -->
+                  <div class="accordion3">
+                    <div class="accordion3-header">
+                      <div class="header3-content">
+                        <img src="SMIME.png" alt="ThirdTitleAccordion" class="ThirdTitleAccordion" />
+                     <span>S/MIME</span>
+                    </div>
+                    <span class="arrow3">&#9660;</span>
+                  </div>
+                    <div class="accordion3-content">
+                      <p class="SMIME_FirstRow">
+                        S/MIME (Secure/Multipurpose Internet Mail Extensions) is an email encryption protocol that uses 
+                        digital certificates to ensure secure communication. It enables encryption to protect email contents
+                        and digital signatures to verify the sender's identity
+                      </p>
+                      <p class="SMIME_TitleSecond_2">
+                        Types of S/MIME Certificates Based 
+                        on Verification Levels:
+                      </p>
+                      <div class="ContainerWrapper">  
+                        <div class="contents_DigitalCertificateIndividual">
+                          <img src="BasicValidation.png" alt="BasicValidationpng" class="BasicValidationpng"/>
+                          <img src="IDValidation.png" alt="IDValidationpng" class="IDValidationpng"/>
+                          <img src="OrganisationValidation.png" alt="OrganisationValidationpng" class="OrganisationValidationpng"/>
+                        </div>  
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Accordion4: LHDNM e-Invoice -->
+                  <div class="accordion3">
+                    <div class="accordion3-header">
+                      <div class="header3-content">
+                        <img src="LHDNMEInvoice.png" alt="ThirdTitleAccordion" class="ThirdTitleAccordion"/>
+                      LHDNM e-Invoice
+                    </div>
+                  </div>
+                </div>
+
+  <!-- Accordion5: SSL/TLS -->
+  <div class="accordion3">
+    <div class="accordion3-header">
+      <div class="header3-content">
+        <img src="SSLTLSheader.png" alt="ThirdTitleAccordion" class="ThirdTitleAccordion" />
+            <span>SSL/TLS</span>
+      </div>
+     <span class="arrow3">&#9660;</span>
+    </div>
+    <div class="accordion3-content">
+      <p class="ssltls_FirstRow">
+        Maintain the integrity of your website and the privacy 
+        of your users. Ensure a safer browsing experience for your 
+        visitors and build credibility and confidence in your brand.
+      <p class="ssltls_TitleSecond">
+                        Types of
+                        <p class="ssltls_TitleSecond_2">
+                          SSL/TLS Certificates
+                        </p>
+                      </p>
+      </p>
+      <div class="ContainerWrapper">  
+                        <div class="contents_DigitalCertificateIndividual">
+                          <img src="ssl1.png" alt="BasicValidationpng" class="BasicValidationpng"/>
+                          <img src="ssl2.png" alt="IDValidationpng" class="IDValidationpng"/>
+                          <img src="ssl3.png" alt="OrganisationValidationpng" class="OrganisationValidationpng"/>
+                        </div>  
+                      </div>
+    </div>
+  </div>
+                </div>
+              </div>
+
+              <!-- Accordion2: Date/Time Stamping -->
+              <div class="accordion2">
+                <div class="accordion2-header">
+                  <div class="header2-content">
+                <img src="DateTimeStamping.png" alt="SecondTitleAccordion" class="SecondTitleAccordion" />
+                    <span>Date/Time Stamping (DTS)</span>
+                </div>
+                <span class="arrow2">&#9660;</span>
+              </div>
+                <div class="accordion2-content">
+                  <p class="datetimestampingexplanation">A digital date/time stamp is a cryptographically secure and tamper-proof declaration that provides 
+                    verifiable proof of when a digital record was created. With RAFFTECH's DTS service, you can confidently 
+                    protect your documents' integrity, ensuring they are time-stamped accurately and securely. Trust us to 
+                    provide reliable timestamping that supports compliance and protects your digital assets.</p>
+                    <div class="buttons">
+        <button class="ContactUs-btn">Contact Us!</button>
+      </div>
+            </section>
+          </div>
+        </div>
+
+        <!-- Accordion Solutions -->
+        <div class="accordion">
+          <div class="accordion-header">
+           <div class="header-content">
+            <img src="SolutionsBigtitle.png" alt="Background Animation" class="BigTitleAccordion"/>
+            <span>Solutions</span>
+          </div>
+           <span class="arrow">&#9660;</span>
+          </div>
+          <div class="accordion-content">
+              <section class="accordion2-container">
+
+              <!-- Accordion1: Digital Signing Solution -->
+              <div class="accordion2">
+                <div class="accordion2-header">
+                 <div class="header2-content">
+                <img src="digitalSigningSolution.png" alt="SecondTitleAccordion" class="SecondTitleAccordion" />
+                    <span>Digital Signing Solution</span>
+                </div>
+                <span class="arrow2">&#9660;</span>
+              </div>
+                <div class="accordion2-content">
+
+                  <!-- Accordion3: Document Signing -->
+                  <div class="accordion3">
+                    <div class="accordion3-header">
+                        <div class="header3-content">
+                <img src="DocumentSigning.png" alt="ThirdTitleAccordion" class="ThirdTitleAccordion" />
+                    <span>Document Signing</span>
+                </div>
+                <span class="arrow3">&#9660;</span>
+              </div>
+                    <div class="accordion3-content">
+                      <p class="DocumentSigning_FirstRow">
+                        Simplify both your internal workflows and client 
+                        interactions with our seamless digital signing services,
+                        integrated directly into your platform via a flexible API. 
+                        Whether you're managing contracts, agreements, or internal approvals, 
+                        our solution streamlines the signing process for everyone. Your 
+                        clients will enjoy a smooth, secure, and efficient signing 
+                        experience, while your team benefits from faster 
+                        turnaround times, reduced paperwork, and improved compliance—all 
+                        within the tools you already use. It’s a hassle-free way to enhance 
+                        productivity and ensure that every signature is legally binding and easy to manage.
+                      <p class="digitalID_TitleSecond_2">
+                        TYPES OF SSL/TLS
+                        <p class="digitalID_TitleSecond_2">
+                          Certificates
+                        </p>
+                      </p>
+                    </p>   
+                    <div class="ContainerWrapper">  
+                      <div class="contents_DocumentSigning">
+                        <img src="SSLTLSCertificates.png" alt="SSLTLSCertificates" class="SSLTLSCertificates"/>
+                      </div>  
+                    </div>
+                  </div>
+                  </div>
+
+                  <!-- Accordion3: Software As A Service -->
+                  <div class="accordion3">
+                    <div class="accordion3-header">
+                      <div class="header3-content">
+                <img src="SoftwareAsAService.png" alt="ThirdTitleAccordion" class="ThirdTitleAccordion" />
+                    <span>Software as a Service</span>
+                </div>
+                <span class="arrow3">&#9660;</span>
+              </div>
+                    <div class="accordion3-content">
+                      <p class="SMIME_FirstRow">
+                       We offer easy-to-use, cloud-based software that you can access
+                       anytime, anywhere — no downloads or installations needed. Our
+                       SaaS solutions help businesses work smarter, faster, and more
+                       securely by bringing essential tools and services online.
+                      </p>
+                    </div>
+                  </div>
+                  
+  <!-- Accordion5: Digital Seal -->
+  <div class="accordion3">
+    <div class="accordion3-header">
+      <div class="header3-content">
+                <img src="DigitalSeal.png" alt="ThirdTitleAccordion" class="ThirdTitleAccordion" />
+                    <span>Digital Seal</span>
+                </div>
+                <span class="arrow3">&#9660;</span>
+              </div>
+    <div class="accordion3-content">
+      <p class="ssltls_FirstRow">
+        Like a digital signature, it confirms that the document 
+        comes from the organisation and remains unchanged. Think
+        of it as a digital version of a company stamp, adding an
+        extra layer of security to protect against tampering. With
+        our solution, you can easily integrate this powerful tool
+        into your workflow, ensuring every document you send out
+        is trusted and secure—enhancing credibility and peace
+        of mind for both your team and clients.
+    </div>
+  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+          </div>
+        </div>
+
+        <!-- Accordion Item Services -->
+        <div class="accordion">
+          <div class="accordion-header">
+            <div class="header-content">
+            <img src="ServicesLogo.png" alt="Background Animation" class="BigTitleAccordion"/>
+            <span>Services</span>
+          </div>
+           <span class="arrow">&#9660;</span>
+          </div>
+          <div class="accordion-content"> 
+
+<!-- Accordion Solutions Services : System Development -->
+
+              <div class="accordion2">
+                <div class="accordion2-header">
+                  <div class="header2-content">
+                <img src="SystemDevelopment.png" alt="SecondTitleAccordion" class="SecondTitleAccordion" />
+                    <span>System Development</span>
+                </div>
+                <span class="arrow2">&#9660;</span>
+              </div>
+                <div class="accordion2-content">
+                      <p class="SystemDevelopment_Title">
+                          a. Web Development
+                        </p>
+                <p class="digitalID_FirstRow">
+                      Digital ID or Digital Certificate is like a digital identity
+                      card to verify the authenticity of a person or organisation. 
+                      It is an electronic document that proves ownership of a public
+                      key, enabling secure information exchange over the internet. 
+                      Issued by a trusted Certificate Authority (CA), it contains 
+                      key details such as the certificate holder’s name, public key, 
+                      CA’s signature, and expiration date. 
+                    </p>   
+                         <p class="SystemDevelopment_Title">
+                          a. Mobile Development
+                        </p>
+                <p class="digitalID_FirstRow">
+                      Mobile apps are essential for engaging your audience and enhancing
+                      business efficiency. We specialize in developing secure, intuitive
+                      iOS and Android apps tailored to your needs—whether for customer-facing
+                      solutions or internal operations. With successful projects like the SSM eInfo
+                      app and MRE app, we deliver reliable, user-centric solutions. 
+                    </p>   
+                  </div>
+                </div>
+          </div>
+<div class="accordion-content"> 
+<!-- Accordion Solutions Services : Verification Services -->
+              <div class="accordion2">
+                <div class="accordion2-header">
+                 <div class="header2-content">
+                <img src="VerificationServices.png" alt="SecondTitleAccordion" class="SecondTitleAccordion" />
+                    <span>Verification Services</span>
+                </div>
+                <span class="arrow2">&#9660;</span>
+              </div>
+                <div class="accordion2-content">
+                      <p class="SystemDevelopment_Title">
+                          a. e- KYC
+                        </p>
+                <p class="digitalID_FirstRow">
+                      Our e-KYC Service offers a quick, secure, and hassle-free 
+                      way to verify customer identities online. Our solution helps
+                      businesses onboard customers efficiently while meeting regulatory
+                      standards. With real-time verification, you can simplify the process,
+                      reduce manual work, and provide a smooth experience for your customers.
+                    </p>   
+                    <div class="ContainerWrapper">  
+                        <div class="contents_DigitalCertificateIndividual">
+                          <img src="ekyc1.png" alt="ekycsatu" class="ekycsatupng"/>
+                          <img src="ekyc2.png" alt="ekycdua" class="ekycduapng"/>
+                        </div>  
+                      </div>
+                         <p class="SystemDevelopment_Title">
+                          b.  Business Verification 
+                        </p>
+                    </p>   
+                  </div>
+                </div>
+          </div>
+        </div>
+
+        <!-- Accordion Item 4 -->
+        <div class="accordion">
+          <div class="accordion-header">
+            <div class="header-content">
+            <img src="DigitalTransformationBigTitle.png" alt="Background Animation" class="BigTitleAccordion"/>
+            <span>Digital Transformation</span>
+          </div>
+           <span class="arrow">&#9660;</span>
+          </div>
+          <div class="accordion-content">
+            <p class="SystemDevelopment_Title">
+                          a. Change Management
+                        </p>
+            <p class="digitalID_FirstRow">Transform the way you work. We guide your business from manual
+               processes to digital systems — helping you automate tasks, 
+               improve efficiency, and adapt to a smarter way of working. </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+ <!-- Footer -->
+  <footer class="bg-white text-sm mt-16 border-t">
+    <div class="max-w-7xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-4 gap-8">
+
+      <!-- Company Info -->
+      <div class="space-y-1">
+        <h4 class="font-semibold">Raffcomm Technologies Sdn. Bhd.</h4>
+        <p>Company No: 201001015771 (100449-W)</p>
+        <p>Lot 32.02, Level 32, Sunway Putra Tower,<br>100, Jalan Putra,<br>50350 Kuala Lumpur</p>
+        <p>+603 4040 0195</p>
+        <p class="font-semibold mt-2">CA Operational License - LPBP-4/2024 (2)</p>
+        <p class="font-semibold">Recognized Repositories - PPR-4/2024 (2)</p>
+        <p class="font-semibold">Date/Time Stamp - PPTM-3/2024 (2)</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="space-y-1">
+        <h4 class="font-semibold mb-2">Quick Links</h4>
+        <p><a href="#" class="hover:underline">Products</a></p>
+        <p><a href="#" class="hover:underline">Solutions</a></p>
+        <p><a href="#" class="hover:underline">Services</a></p>
+        <p><a href="#" class="hover:underline">Digital Transformation</a></p>
+      </div>
+
+      <!-- Acknowledgments -->
+      <div>
+        <h4 class="font-semibold mb-2">Acknowledgments</h4>
+        <div class="flex items-center gap-4 mt-2">
+          <img src="WebTrust.png" alt="WebTrust" class="h-10" />
+          <img src="Mcmc.png" alt="MCMC" class="h-10" />
+        </div>
+      </div>
+
+      <!-- Optional Empty Column -->
+      <div></div>
+    </div>
+
+     <div class="footer-bottom">
+        <img src="https://www.rafftech.my/assets/img/rafftech.png"  class="logorafftech">
+      © 2025 Raffcomm Technologies Sdn Bhd. All Rights Reserved
+    <div class="socials">
+      <a href="#"><img src="facebook.png"/></a>
+      <a href="#"><img src="youtube.png"/></a>
+      <a href="#"><img src="ig.png"/></a>
+      <a href="#"><img src="linkedin.png"/></a>
+    </div>
+    </div>     
+    </div>
+  </footer>
+    </body>
+</html>

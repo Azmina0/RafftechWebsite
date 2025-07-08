@@ -1,0 +1,175 @@
+---
+// 1. certificationauthority
+import '../styles/global.css';
+import '../styles/header.css';
+import '../styles/footer.css';
+---
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+		<title>Highlights|Raffcomm Technologies Sdn. Bhd.</title>
+	</head>
+	<body>
+<!-- Header -->
+    <header class="navbar">
+  <div class="nav-top">
+    <a href="#">Our Offering</a>  
+    <a href="#" class="company-link">The Company</a>
+
+    <!-- Secondary navigation menu for "The Company" -->
+    <div class="sub-nav" id="companySubNav">
+      <a href="#">Our Offering</a>
+      <a href="#">The Company</a>
+      <a href="#">Support</a>
+    </div>
+    <a href="#">Support</a>
+  </div>
+ <!-- Container for logo and border in the same row -->
+  <div class="logo-border-container">
+    <div class="logo-container">
+      <img src="https://www.rafftech.my/assets/img/rafftech.png" alt="Logo" class="nav-logo">
+    </div>
+    <div class="border-top"></div>
+  </div>
+  
+  <!-- Apply border to this container -->
+  <div class="nav-bottom">
+    <a href="#">LHDNM e-Invoice</a>
+    <a href="#">SSM e-Info</a>
+  </div>
+</header>
+  <!-- Main FAQ Section -->
+  <main class="max-w-7xl mx-auto px-6 py-12 flex flex-col md:flex-row md:space-x-12 items-start">
+    
+    <!-- FAQ Content -->
+    <div class="flex-1">
+
+      <!-- FAQ Heading -->
+      <section class="mb-4">
+        <h1 class="text-4xl font-bold">FAQ</h1>
+      </section>
+
+      <!-- Subtitle -->
+      <section class="mb-8">
+        <p class="text-blue-600 font-semibold">Find Your Answer Here!</p>
+      </section>
+
+      <!-- Accordion List -->
+      <div class="space-y-4">
+
+        <!-- Accordion Item 1 -->
+        <div class="border rounded-lg overflow-hidden">
+          <button class="w-full text-left p-4 font-medium flex justify-between items-center toggle-btn">
+            The expense windows adapted sir. Wrong widen drawn.
+            <span class="transform transition-transform">⌄</span>
+          </button>
+          <div class="p-4 border-t hidden">
+            This is the answer to the first question. Add any detailed explanation here.
+          </div>
+        </div>
+
+        <!-- Accordion Item 2 -->
+        <div class="border rounded-lg overflow-hidden">
+          <button class="w-full text-left p-4 font-medium flex justify-between items-center toggle-btn">
+            Six curiosity day assurance bed necessary?
+            <span class="transform transition-transform">⌄</span>
+          </button>
+          <div class="p-4 border-t hidden">
+            This is the answer to the second question. Expand as needed.
+          </div>
+        </div>
+
+        <!-- Accordion Item 3 -->
+        <div class="border rounded-lg overflow-hidden">
+          <button class="w-full text-left p-4 font-medium flex justify-between items-center toggle-btn">
+            Produce say the ten moments parties?
+            <span class="transform transition-transform">⌄</span>
+          </button>
+          <div class="p-4 border-t hidden">
+            This is the answer to the third question.
+          </div>
+        </div>
+
+        <!-- Accordion Item 4 -->
+        <div class="border rounded-lg overflow-hidden">
+          <button class="w-full text-left p-4 font-medium flex justify-between items-center toggle-btn">
+            Simple innate summer fat appear basket his desire joy?
+            <span class="transform transition-transform">⌄</span>
+          </button>
+          <div class="p-4 border-t hidden">
+            This is the answer to the fourth question.
+          </div>
+        </div>
+
+        <!-- Accordion Item 5 -->
+        <div class="border rounded-lg overflow-hidden">
+          <button class="w-full text-left p-4 font-medium flex justify-between items-center toggle-btn">
+            Outward clothes promise at gravity do excited?
+            <span class="transform transition-transform">⌄</span>
+          </button>
+          <div class="p-4 border-t hidden">
+            This is the answer to the fifth question.
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Right Sidebar -->
+<div class="bg-gray-50 p-10 rounded-lg shadow-md md:max-w-sm w-full text-center">
+  <img src="Chatboxicon.png" alt="Ask Us" class="mx-auto mb-4 h-20">
+  <h2 class="text-lg font-semibold mb-2">Do you have more questions?</h2>
+  <p class="text-sm text-gray-600 mb-4">End-to-end payments and financial management in a single solution. Meet the right platform to help realize.</p>
+  <button class="bg-blue-600 text-white px-4 py-2 rounded">Shoot a Direct Mail</button>
+</div>
+
+  </main>
+ <!-- Footer -->
+   <footer class="bg-white text-sm mt-16 border-t">
+    <div class="max-w-6xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div>
+        <h4 class="font-semibold mb-2">Raffcomm Technologies Sdn. Bhd.</h4>
+        <p>Company No: 201001015771 (100449-W)</p>
+        <p>Lot 32.02, Level 32, Sunway Putra Tower, 100, Jalan Putra, 50350 Kuala Lumpur</p>
+        <p>+603 4040 0195</p>
+        <p class="mt-2 font-semibold">CA Operational License - LPBP-4/2024 (2)</p>
+        <p class="font-semibold">Recognized Repositories - PPR-4/2024 (2)</p>
+        <p class="font-semibold">Date/Time Stamp - PPTM-3/2024 (2)</p>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-2">Quick Links</h4>
+        <ul class="space-y-1">
+          <li><a href="#" class="hover:text-blue-600">Products</a></li>
+          <li><a href="#" class="hover:text-blue-600">Solutions</a></li>
+          <li><a href="#" class="hover:text-blue-600">Services</a></li>
+          <li><a href="#" class="hover:text-blue-600">Digital Transformation</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-2">Acknowledgments</h4>
+        <div class="acknowledgment-logos">
+          <img src="WebTrust.png" alt="WebTrust" class="WebTrust">
+          <img src="Mcmc.png" alt="MCMC" class="MCMC">
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+        <img src="https://www.rafftech.my/assets/img/rafftech.png"  class="logorafftech">
+      © 2025 Raffcomm Technologies Sdn Bhd. All Rights Reserved
+    <div class="socials">
+      <a href="#"><img src="facebook.png"/></a>
+      <a href="#"><img src="youtube.png"/></a>
+      <a href="#"><img src="ig.png"/></a>
+      <a href="#"><img src="linkedin.png"/></a>
+    </div>
+    </div>     
+    </div>
+  </footer>
+
+
+    </body>
+    </html>

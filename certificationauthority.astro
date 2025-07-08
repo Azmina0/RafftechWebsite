@@ -1,0 +1,161 @@
+---
+// 1. certificationauthority
+import '../styles/global.css';
+import '../styles/header.css';
+import '../styles/footer.css';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+		<title>Certification Authority|Raffcomm Technologies Sdn. Bhd.</title>
+	</head>
+	<body>
+      <!-- Hero Section -->
+  <section class="bg-blue-100 py-7">
+    
+<!-- Header -->
+<header class="navbar">
+  <div class="nav-top">
+    <a href="#">Our Offering</a>  
+    <a href="#" class="company-link">The Company</a>
+    <!-- Secondary navigation menu for "The Company" -->
+    <div class="sub-nav" id="companySubNav">
+      <a href="#">Our Offering</a>
+      <a href="#">The Company</a>
+      <a href="#">Support</a>
+    </div>
+    <a href="#">Support</a>
+  </div>
+ <!-- Container for logo and border in the same row -->
+  <div class="logo-border-container">
+    <div class="logo-container">
+      <img src="https://www.rafftech.my/assets/img/rafftech.png" alt="Logo" class="nav-logo">
+    </div>
+    <div class="border-top"></div>
+  </div>
+  
+  <!-- Apply border to this container -->
+  <div class="nav-bottom">
+    <a href="#">LHDNM e-Invoice</a>
+    <a href="#">SSM e-Info</a>
+  </div>
+</header>
+
+<div class="flex flex-col md:flex-row md:items-start md:space-x-8">
+  <div class="md:w-2/3">
+      <h1 class="text-2xl md:text-3xl font-semibold text-blue-800 mb-10 px-10 text-left" >
+        Certification Authority
+      </h1>
+      <p class="text-lg md:text-xl text-left px-10 text-justify font-medium">
+        A Certificate Authority (CA) is a trusted provider that issues digital certificates to verify identities online. It ensures that websites and businesses are legitimate, helping protect your information during online transactions.
+      </p>
+
+      <p class="mt-4 text-base md:text-lg text-left mb-10 px-10 text-justify">
+        <span class="bg-[#33459b] text-white px-2 py-1 rounded">At Rafftech,</span>
+        we provide digital certificates to secure your communications, protect your website, and ensure your online activities are safe. Trust us to keep your digital world secure.
+      </p>
+    </div>
+
+
+     <!-- Right Illustration -->
+    <div class="md:w-1/3 mt-8 pt-2 px-20 md:mt-0 flex justify-center md:justify-end">
+      <img src="CA.gif" alt="Certificate Illustration" class="w-36 md:w-44 lg:w-52" />
+    </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="bg-white py-12 px-6">
+    <h2 class="text-center text-xl md:text-2xl font-semibold uppercase tracking-wide mb-10">
+      What's included in our Certification Authority Services?
+    </h2>
+    <div class="flex flex-col md:flex-row justify-center gap-8 max-w-6xl mx-auto">
+      <!-- Card 1 -->
+      <div class="bg-white-50 rounded-2xl font-['Roboto'] shadow p-6 text-left w-full md:w-1/3">
+        <div class="mb-4">
+          <img src="DigitalCertificates.png" alt="Digital Certificate Icon" class="w-12 h-13" />
+        </div>
+        <h3 class="font-semibold text-lg text-[#090f4e] mb-2">Digital Certificates</h3>
+        <ul class="text-sm font-['Roboto'] text-[#63657e] space-y-1">
+          <li>• Digital Certificate</li>
+          <li>• S/MIME</li>
+          <li>• LHDNM e-Invoice</li>
+          <li>• SSL/TLS</li>
+          <li>• Date/Time Stamping (DTS)</li>
+        </ul>
+      </div>
+      <!-- Card 2 -->
+      <div class="bg-white-50 rounded-2xl font-['Roboto'] shadow p-6 text-left w-full md:w-1/3">
+        <div class="mb-4">
+          <img src="Solutions.png" alt="Solutions Icon" class="w-12 h-13" />
+        </div>
+        <h3 class="font-semibold text-lg text-[#090f4e] mb-2">Solutions</h3>
+        <ul class="text-sm font-['Roboto'] text-[#63657e] space-y-1">
+          <li>• Digital Signing Solution</li>
+          <li>• Software as a Service</li>
+          <li>• Digital Seal</li>
+        </ul>
+      </div>
+      <!-- Card 3 -->
+      <div class="bg-white-50 rounded-2xl font-['Roboto'] shadow p-6 text-left w-full md:w-1/3">
+        <div class="mb-4">
+          <img src="Services.png" alt="Services Icon" class="w-12 h-13" />
+        </div>
+        <h3 class="font-semibold text-lg text-[#090f4e] mb-2">Services</h3>
+        <ul class="text-sm font-['Roboto'] text-[#63657e] space-y-1">
+          <li>• System Development</li>
+          <li>• Verification Services</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+   <!-- Footer -->
+  <footer class="bg-white text-sm mt-16 border-t">
+    <div class="max-w-6xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div>
+        <h4 class="font-semibold mb-2">Raffcomm Technologies Sdn. Bhd.</h4>
+        <p>Company No: 201001015771 (100449-W)</p>
+        <p>Lot 32.02, Level 32, Sunway Putra Tower, 100, Jalan Putra, 50350 Kuala Lumpur</p>
+        <p>+603 4040 0195</p>
+        <p class="mt-2 font-semibold">CA Operational License - LPBP-4/2024 (2)</p>
+        <p class="font-semibold">Recognized Repositories - PPR-4/2024 (2)</p>
+        <p class="font-semibold">Date/Time Stamp - PPTM-3/2024 (2)</p>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-2">Quick Links</h4>
+        <ul class="space-y-1">
+          <li><a href="#" class="hover:text-blue-600">Products</a></li>
+          <li><a href="#" class="hover:text-blue-600">Solutions</a></li>
+          <li><a href="#" class="hover:text-blue-600">Services</a></li>
+          <li><a href="#" class="hover:text-blue-600">Digital Transformation</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-2">Acknowledgments</h4>
+        <div class="acknowledgment-logos">
+          <img src="WebTrust.png" alt="WebTrust" class="WebTrust">
+          <img src="Mcmc.png" alt="MCMC" class="MCMC">
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+        <img src="https://www.rafftech.my/assets/img/rafftech.png"  class="logorafftech">
+      © 2025 Raffcomm Technologies Sdn Bhd. All Rights Reserved
+    <div class="socials">
+      <a href="#"><img src="facebook.png"/></a>
+      <a href="#"><img src="youtube.png"/></a>
+      <a href="#"><img src="ig.png"/></a>
+      <a href="#"><img src="linkedin.png"/></a>
+    </div>
+    </div>     
+    </div>
+  </footer>
+    </body>
+</html>

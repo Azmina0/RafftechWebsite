@@ -1,0 +1,192 @@
+---
+// 1. contact us
+import '../styles/global.css';
+import '../styles/header.css';
+import '../styles/footer.css';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+         <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+		<title>Contact Us|Raffcomm Technologies Sdn. Bhd.</title>
+	</head>
+    <body>
+
+   <!-- Header -->
+    <header class="navbar">
+  <div class="nav-top">
+    <a href="#">Our Offering</a>  
+    <a href="#" class="company-link">The Company</a>
+    <!-- Secondary navigation menu for "The Company" -->
+    <div class="sub-nav" id="companySubNav">
+      <a href="#">Our Offering</a>
+      <a href="#">The Company</a>
+      <a href="#">Support</a>
+    </div>
+    <a href="#">Support</a>
+  </div>
+ <!-- Container for logo and border in the same row -->
+  <div class="logo-border-container">
+    <div class="logo-container">
+      <img src="https://www.rafftech.my/assets/img/rafftech.png" alt="Logo" class="nav-logo">
+    </div>
+    <div class="border-top"></div>
+  </div>
+  
+  <!-- Apply border to this container -->
+  <div class="nav-bottom">
+    <a href="#">LHDNM e-Invoice</a>
+    <a href="#">SSM e-Info</a>
+  </div>
+</header>
+
+  <!-- Contact Section -->
+  <section class="max-w-7xl text-black mx-auto px-4 py-16">
+    <h1 class="text-6xl font-bold font-['Roboto'] text-black mb-12">Contact Us</h1>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+<!-- Left Column -->
+<div class="space-y-6">
+  <!-- Operating Hours -->
+  <div>
+    <h2 class="py-2 text-[#15085e] text-3xl font-semibold font-semibold text-lg">Operating Hour</h2>
+    <p class="text-sm mt-1 border-b border-gray-300">Monday to Friday 9AM - 6PM<br>Saturday, Sunday & Public Holiday Closed</p>
+  </div>
+
+  <!-- Location -->
+  <div class="flex items-start gap-4">
+    <div class="text-white p-1ss flex items-center justify-centertext-lg">
+      <img src="LocationIcon.png" alt="Location Icon" class="w-15 h-10 object-contain" />
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M12 11c1.657 0 3-1.343 3-3S13.657 5 12 5 9 6.343 9 8s1.343 3 3 3zM12 22c4.418 0 8-4.03 8-9a8 8 0 10-16 0c0 4.97 3.582 9 8 9z" />
+      </svg>
+    </div>
+    <div class="text-sm">
+      <p class="font-bold">Location</p>
+      <p>
+        Lot 32.01 & Lot 32.02, Level 32,<br>
+        Sunway Putra Tower, 100, Jalan Putra,<br>
+        50350 Kuala Lumpur
+      </p>
+    </div>
+  </div>
+
+  <!-- Email -->
+  <div class="flex items-start gap-4">
+    <div class="text-white p-1ss flex items-center justify-centertext-lg">
+      <img src="EmailIcon.png" alt="Email Icon" class="w-15 h-10 object-contain" />
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M16 12l-4-4-4 4m8 0H4" />
+      </svg>
+    </div>
+    <div class="text-sm">
+      <p class="font-bold">Our Email</p>
+      <p>hello@rafftech.my</p>
+    </div>
+  </div>
+
+  <!-- Phone -->
+  <div class="flex border-b border-gray-300 items-start gap-4">
+     <div class="text-white p-1ss flex items-center justify-centertext-lg">
+      <img src="CallIcon.png" alt="Call Icon" class="w-15 h-10 object-contain" />
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M3 5a2 2 0 012-2h2l2 5H7l-1.293 2.293a1 1 0 00-.293.707V14a1 1 0 001 1h3.586A2 2 0 0012 17.414V20a2 2 0 01-2 2H5a2 2 0 01-2-2V5z" />
+      </svg>
+    </div>
+    <div class="text-sm">
+      <p class="font-bold">Call Us</p>
+      <p>+603 4040 0195</p>
+    </div>
+  </div>
+</div>
+
+
+      <!-- Right Column - Contact Form -->
+      <div class="bg-gray-100 rounded-lg p-8 shadow-md relative">
+        <!-- Bot image -->
+        <img src="Chatbot.png" alt="Chatbot" class="absolute -top-8 -right-8 w-20 h-23 rounded-full shadow" />
+
+        <form class="space-y-6">
+          <div>
+            <label class="block text-sm font-medium text-gray-700">Name</label>
+            <input type="text" placeholder="Insert Your Name" class="mt-1 w-full border border-gray-300 rounded px-4 py-2" />
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700">Contact Number</label>
+            <input type="text" placeholder="Insert Contact Number" class="mt-1 w-full border border-gray-300 rounded px-4 py-2" />
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700">Email</label>
+            <input type="email" placeholder="Insert Email" class="mt-1 w-full border border-gray-300 rounded px-4 py-2" />
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700">Inquiry</label>
+            <select class="mt-1 w-full border border-gray-300 rounded px-4 py-2 text-gray-600">
+              <option>Choose Subject</option>
+              <option>Digital Signature</option>
+              <option>SSL</option>
+              <option>e-Invoice</option>
+              <option>Business Verification</option>
+            </select>
+          </div>
+
+          <button type="submit" class="bg-blue-800 text-white px-6 py-2 rounded hover:bg-blue-900">
+            Submit Now
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+   <footer class="bg-white text-sm mt-16 border-t">
+    <div class="max-w-6xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div>
+        <h4 class="font-semibold mb-2">Raffcomm Technologies Sdn. Bhd.</h4>
+        <p>Company No: 201001015771 (100449-W)</p>
+        <p>Lot 32.02, Level 32, Sunway Putra Tower, 100, Jalan Putra, 50350 Kuala Lumpur</p>
+        <p>+603 4040 0195</p>
+        <p class="mt-2 font-semibold">CA Operational License - LPBP-4/2024 (2)</p>
+        <p class="font-semibold">Recognized Repositories - PPR-4/2024 (2)</p>
+        <p class="font-semibold">Date/Time Stamp - PPTM-3/2024 (2)</p>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-2">Quick Links</h4>
+        <ul class="space-y-1">
+          <li><a href="#" class="hover:text-blue-600">Products</a></li>
+          <li><a href="#" class="hover:text-blue-600">Solutions</a></li>
+          <li><a href="#" class="hover:text-blue-600">Services</a></li>
+          <li><a href="#" class="hover:text-blue-600">Digital Transformation</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-2">Acknowledgments</h4>
+        <div class="acknowledgment-logos">
+          <img src="WebTrust.png" alt="WebTrust" class="WebTrust">
+          <img src="Mcmc.png" alt="MCMC" class="MCMC">
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+        <img src="https://www.rafftech.my/assets/img/rafftech.png"  class="logorafftech">
+      © 2025 Raffcomm Technologies Sdn Bhd. All Rights Reserved
+    <div class="socials">
+      <a href="#"><img src="facebook.png"/></a>
+      <a href="#"><img src="youtube.png"/></a>
+      <a href="#"><img src="ig.png"/></a>
+      <a href="#"><img src="linkedin.png"/></a>
+    </div>
+    </div>     
+    </div>
+  </footer>
+
+    </body>
+    </html>

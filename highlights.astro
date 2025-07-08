@@ -1,0 +1,166 @@
+---
+// 1. Highlights Rafftect
+import '../styles/global.css';
+import '../styles/header.css';
+import '../styles/footer.css';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+		<title>Highlights|Raffcomm Technologies Sdn. Bhd.</title>
+	</head>
+	<body>
+
+  <!-- Header -->
+    <header class="navbar">
+  <div class="nav-top">
+    <a href="#">Our Offering</a>  
+    <a href="#" class="company-link">The Company</a>
+    <!-- Secondary navigation menu for "The Company" -->
+    <div class="sub-nav" id="companySubNav">
+      <a href="#">Our Offering</a>
+      <a href="#">The Company</a>
+      <a href="#">Support</a>
+    </div>
+    <a href="#">Support</a>
+  </div>
+ <!-- Container for logo and border in the same row -->
+  <div class="logo-border-container">
+    <div class="logo-container">
+      <img src="https://www.rafftech.my/assets/img/rafftech.png" alt="Logo" class="nav-logo">
+    </div>
+    <div class="border-top"></div>
+  </div>
+  
+  <!-- Apply border to this container -->
+  <div class="nav-bottom">
+    <a href="#">LHDNM e-Invoice</a>
+    <a href="#">SSM e-Info</a>
+  </div>
+</header>
+<div>
+
+        <h1 class="px-12 text-5xl font-['Roboto'] text-black font-bold mb-4">Rafftech’s Highlights</h1>
+  <!-- Main Content -->
+  <main class="max-w-7xl mx-auto py-12 px-8 grid grid-cols-1 md:grid-cols-3 gap-12">
+    <!-- Sidebar -->
+   <section class="max-w-xl mx-auto py-8 px-4 bg-white rounded shadow">
+  <h2 class="text-lg font-bold text-[#03254c] mb-4">RAFFTECH’s Highlights</h2>
+
+  <ul class="space-y-6">
+    <!-- Highlight Item -->
+    <li class="flex items-start gap-4">
+      <div class="flex items-center justify-center text-white text-sm font-semibold" >
+         <img src="IconNews.png" alt="News Icon" class="w-15 h-10 object-contain" />
+      </div>
+      <div class="flex-1 border-b border-gray-300 pb-4">
+        <p class="text-sm text-gray-500 font-semibold">December 19, 2024</p>
+        <p class="text-gray-800">Signing Cloud With Rafftech</p>
+      </div>
+    </li>
+
+    <li class="flex items-start gap-4">
+     <div class="flex items-center justify-center text-white text-sm font-semibold" >
+         <img src="IconNews.png" alt="News Icon" class="w-15 h-10 object-contain" />
+      </div>
+      <div class="flex-1 border-b border-gray-300 pb-4">
+        <p class="text-sm text-gray-500 font-semibold">September 27, 2024</p>
+        <p class="text-gray-800">CEO represent Rafftech at the FIDO APAC Summit 2024</p>
+      </div>
+    </li>
+
+    <li class="flex items-start gap-4">
+      <div class="flex items-center justify-center text-white text-sm font-semibold" >
+         <img src="IconNews.png" alt="News Icon" class="w-15 h-10 object-contain" />
+      </div>
+      <div class="flex-1 border-b border-gray-300 pb-4">
+        <p class="text-sm text-gray-500 font-semibold">August 21, 2024</p>
+        <p class="text-gray-800">Digital Signature adoption throughout the nation with regulator MCMC</p>
+      </div>
+    </li>
+
+    <li class="flex items-start gap-4">
+      <div class="flex items-center justify-center text-white text-sm font-semibold" >
+         <img src="IconNews.png" alt="News Icon" class="w-15 h-10 object-contain" />
+      </div>
+      <div class="flex-1">
+        <p class="text-sm text-gray-500 font-semibold">July 19, 2024</p>
+        <p class="text-gray-800">MIA 2023 Seminar Budget · Pullman Bangsar</p>
+      </div>
+    </li>
+  </ul>
+</section>
+
+
+    <!-- Highlight Content -->
+    <section class="md:col-span-2">
+      <h1 class="text-3xl text-[#33459b] font-bold mb-2">Signing Cloud With Rafftech</h1>
+      <p class="text-sm text-gray-500 mb-6">December 19, 2024</p>
+      <img src="Highlights.png" alt="Highlight Image" class="w-full rounded mb-6">
+      <p class="text-sm mb-6">
+        Signed and sealed! RAFFTECH and Signing Cloud Sdn. Bhd. are proud to announce a new partnership dedicated to enhancing secure, innovative digital solutions. The signing ceremony last week marked the beginning of an exciting journey ahead. We look forward to achieving greater milestones together!
+      </p>
+      <!-- Keyword Label + Tags -->
+  <div class="flex flex-wrap gap-2 items-center">
+    <span class="text-black font-semibold mr-2 whitespace-nowrap">Keywords:</span>
+    <div class="flex flex-wrap gap-2">
+      <span class="bg-blue-800 text-white text-xs px-3 py-1 rounded">SSM</span>
+      <span class="bg-blue-800 text-white text-xs px-3 py-1 rounded">Certification Authorized</span>
+      <span class="bg-blue-800 text-white text-xs px-3 py-1 rounded">Signature</span>
+      <span class="bg-blue-800 text-white text-xs px-3 py-1 rounded">Electronic Commerce</span>
+      <span class="bg-blue-800 text-white text-xs px-3 py-1 rounded">Secure</span>
+    </div>
+  </div>
+</section>
+  </main>
+
+  <!-- Footer -->
+   <footer class="bg-white text-sm mt-16 border-t">
+    <div class="max-w-6xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div>
+        <h4 class="font-semibold mb-2">Raffcomm Technologies Sdn. Bhd.</h4>
+        <p>Company No: 201001015771 (100449-W)</p>
+        <p>Lot 32.02, Level 32, Sunway Putra Tower, 100, Jalan Putra, 50350 Kuala Lumpur</p>
+        <p>+603 4040 0195</p>
+        <p class="mt-2 font-semibold">CA Operational License - LPBP-4/2024 (2)</p>
+        <p class="font-semibold">Recognized Repositories - PPR-4/2024 (2)</p>
+        <p class="font-semibold">Date/Time Stamp - PPTM-3/2024 (2)</p>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-2">Quick Links</h4>
+        <ul class="space-y-1">
+          <li><a href="#" class="hover:text-blue-600">Products</a></li>
+          <li><a href="#" class="hover:text-blue-600">Solutions</a></li>
+          <li><a href="#" class="hover:text-blue-600">Services</a></li>
+          <li><a href="#" class="hover:text-blue-600">Digital Transformation</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-2">Acknowledgments</h4>
+        <div class="acknowledgment-logos">
+          <img src="WebTrust.png" alt="WebTrust" class="WebTrust">
+          <img src="Mcmc.png" alt="MCMC" class="MCMC">
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+        <img src="https://www.rafftech.my/assets/img/rafftech.png"  class="logorafftech">
+      © 2025 Raffcomm Technologies Sdn Bhd. All Rights Reserved
+    <div class="socials">
+      <a href="#"><img src="facebook.png"/></a>
+      <a href="#"><img src="youtube.png"/></a>
+      <a href="#"><img src="ig.png"/></a>
+      <a href="#"><img src="linkedin.png"/></a>
+    </div>
+    </div>     
+    </div>
+  </footer>
+
+    </body>
+    </html>

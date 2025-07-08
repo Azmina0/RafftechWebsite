@@ -1,0 +1,413 @@
+---
+// 1. About Us
+import '../styles/global.css';
+import '../styles/header.css';
+import '../styles/footer.css';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+		<title>About Us|Raffcomm Technologies Sdn. Bhd.</title>
+	</head>
+	<body>
+
+ <!-- Header -->
+   <header class="navbar">
+  <div class="nav-top">
+    <a href="#">Our Offering</a>  
+    <a href="#" class="company-link">The Company</a>
+    <!-- Secondary navigation menu for "The Company" -->
+    <div class="sub-nav" id="companySubNav">
+      <a href="#">Our Offering</a>
+      <a href="#">The Company</a>
+      <a href="#">Support</a>
+    </div>
+    <a href="#">Support</a>
+  </div>
+ <!-- Container for logo and border in the same row -->
+  <div class="logo-border-container">
+    <div class="logo-container">
+      <img src="https://www.rafftech.my/assets/img/rafftech.png" alt="Logo" class="nav-logo">
+    </div>
+    <div class="border-top"></div>
+  </div>
+  
+  <!-- Apply border to this container -->
+  <div class="nav-bottom">
+    <a href="#">LHDNM e-Invoice</a>
+    <a href="#">SSM e-Info</a>
+  </div>
+</header>
+  <!-- About Us -->
+  <section class="max-w-5xl mx-auto p-8">
+    <h1 class="text-3xl font-bold mb-2">About Us</h1>
+    <h2 class="text-xl font-semibold text-blue-700 mb-4">History</h2>
+    <div class="space-y-4 text-justify">
+  <p>
+    Raffcomm Technologies Sdn. Bhd., widely known as RAFFTECH, is a trusted Certification Authority (CA) in Malaysia, licensed and regulated by the Malaysian Communications and Multimedia Commission (MCMC). RAFFTECH is authorized to provide verification and certification of entity, enhancing trust and integrity in digital processes, as well as online communications and transactions.
+  </p>
+
+  <p>
+    Incorporated in 2010, RAFFTECH was awarded the operating license by MCMC in 2018 in compliance to the Digital Signature Act 1997 (DSA 1997), Digital Signature Regulations 1998 ("DSR 1998"), and Electronic Commerce Act 2006 (ECA 2006), for the provision of Certification Authority services, as well as recognized Repository and Date-Time Stamping services.
+  </p>
+
+  <p>
+    RAFFTECH offers Digital Certificate for certification, and Digital Signature Solutions which is highly customizable to the client’s need. In its commitment to drive the adoption of Digital Signature, RAFFTECH collaborates with its strategic partner for the provision of Signing Cloud solution.
+  </p>
+
+  <p>
+    Apart from being licensed as a CA, RAFFTECH has been appointed as the Authorised Service Provider for Suruhanjaya Syarikat Malaysia (SSM) in 2023. Prior to the appointment, RAFFTECH was already servicing SSM as CA for Digitally Certified True Copy (DCTC) documents.
+  </p>
+
+  <p>
+    The appointment as Service Provider extends to overseeing the operation and enhancement of SSM E-Info portal, which was initially developed and managed by its holding company, Raffcomm Sdn Bhd (RAFFCOMM) since 2006.
+  </p>
+
+  <p>
+    Leveraging the expertise and experience of the group, RAFFTECH aims to be the Prime Identity Services Company, providing secure authentication of corporate and individual information, making verified identification and cybersecurity universally accessible and reliable.
+  </p>
+</div>
+
+    <p class="mb-8">
+      <!-- Continue the intro paragraphs here -->
+    </p>
+  </section>
+
+ <!-- Full-screen Milestone Section -->
+  <section class="bg-[#f0f1f6] min-h-screen w-full py-16">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="relative border-l-4 border-blue-300 ml-12">
+        
+        <!-- Timeline Item -->
+        <div class="mb-12 ml-6 relative">
+          <div class="absolute -left-24 top-0 flex items-center">
+            <div class="relative bg-[#a8bce5] text-black text-sm font-bold px-4 py-2 rounded-full shadow">
+              1999
+              <div class="absolute left-full top-1/2 -translate-y-1/2 w-0 h-0 
+                  border-t-8 border-b-8 border-l-8 
+                  border-t-transparent border-b-transparent border-l-[#8696b5]"></div>
+            </div>
+          </div>
+
+          <div class="bg-white p-5 rounded-lg shadow-md">
+            <h3 class="text-lg font-bold font-['Roboto'] text-gray-800">Incorporation Of Rafflesia Communications</h3>
+            <p class="text-sm font-['Roboto'] text-gray-600 mt-1">
+              Rafflesia Communications was founded, and later rebranded as Rafflescom Sdn. Bhd, establishing its presence in the digital and business services sector.
+            </p>
+          </div>
+        </div>
+
+        <!-- Timeline Item 2 -->
+        <div class="mb-12 ml-6 relative">
+          <div class="absolute -left-24 top-0 flex items-center">
+            <div class="relative bg-[#f2b3f1] text-[#4c244c] text-sm font-bold px-4 py-2 rounded-full shadow">
+              2006
+              <div class="absolute left-full top-1/2 -translate-y-1/2 w-0 h-0 
+                  border-t-8 border-b-8 border-l-8 
+                  border-t-transparent border-b-transparent border-l-[#ba61b8]"></div>
+            </div>
+          </div>
+          <div class="bg-white p-5 rounded-lg shadow-md">
+            <h3 class="text-lg font-bold font-['Roboto'] text-gray-800">Appointed As SSM’s No. 1 Authorised Service Provider</h3>
+            <p class="text-sm font-['Roboto'] text-gray-600 mt-1">
+              Rafflescom became the top authorised service provider for the Companies Commission of Malaysia (SSM).
+            </p>
+          </div>
+        </div>
+
+        <!-- More timeline items... -->
+
+         <!-- Timeline Item -->
+        <div class="mb-12 ml-6 relative">
+          <div class="absolute -left-24 top-0 flex items-center">
+            <div class="relative bg-[#d3abbf] text-[#681f43] text-sm font-bold px-4 py-2 rounded-full shadow">
+              2010
+              <div class="absolute left-full top-1/2 -translate-y-1/2 w-0 h-0 
+                  border-t-8 border-b-8 border-l-8 
+                  border-t-transparent border-b-transparent border-l-[#d15e97]"></div>
+            </div>
+          </div>
+
+          <div class="bg-white p-5 rounded-lg shadow-md">
+            <h3 class="text-lg font-bold font-['Roboto'] text-gray-800">Incorporation of Raffcomm Technologies</h3>
+            <p class="text-sm font-['Roboto'] text-gray-600 mt-1">
+              Raffcomm established Raffcomm Technologies Sdn Bhd, a subsidiary focused on technological advancements.
+            </p>
+          </div>
+        </div>
+
+        <!-- Timeline Item 2 -->
+        <div class="mb-12 ml-6 relative">
+          <div class="absolute -left-24 top-0 flex items-center">
+            <div class="relative bg-[#e4b587] text-[#573615] text-sm font-bold px-4 py-2 rounded-full shadow">
+              2011
+              <div class="absolute left-full top-1/2 -translate-y-1/2 w-0 h-0 
+                  border-t-8 border-b-8 border-l-8 
+                  border-t-transparent border-b-transparent border-l-[#d3883f]"></div>
+            </div>
+          </div>
+          <div class="bg-white p-5 rounded-lg shadow-md">
+            <h3 class="text-lg font-bold font-['Roboto'] text-gray-800">WebTrust Certified</h3>
+            <p class="text-sm font-['Roboto'] text-gray-600 mt-1">
+               Raffcomm earned the WebTrust Certification, ensuring high standards in security and privacy.
+            </p>
+          </div>
+        </div>
+         <!-- Timeline Item -->
+        <div class="mb-12 ml-6 relative">
+          <div class="absolute -left-24 top-0 flex items-center">
+            <div class="relative bg-[#e6d6a2] text-[#564a22] text-sm font-bold px-4 py-2 rounded-full shadow">
+              2013
+              <div class="absolute left-full top-1/2 -translate-y-1/2 w-0 h-0 
+                  border-t-8 border-b-8 border-l-8 
+                  border-t-transparent border-b-transparent border-l-[#c8a52d]"></div>
+            </div>
+          </div>
+
+          <div class="bg-white p-5 rounded-lg shadow-md">
+            <h3 class="text-lg font-bold font-['Roboto'] text-gray-800">Pioneering e-Wallet Services as BNM-Approved 
+e-Money Issuer (EMI)</h3>
+            <p class="text-sm font-['Roboto'] text-gray-600 mt-1">
+              Raffcomm became an approved e-Money Issuer (EMI) by Bank Negara Malaysia (BNM), leading the way in digital payment solutions.
+            </p>
+          </div>
+        </div>
+
+                 <!-- Timeline Item -->
+        <div class="mb-12 ml-6 relative">
+          <div class="absolute -left-24 top-0 flex items-center">
+            <div class="relative bg-[#98dcc8] text-[#134033] text-sm font-bold px-4 py-2 rounded-full shadow">
+              2018
+              <div class="absolute left-full top-1/2 -translate-y-1/2 w-0 h-0 
+                  border-t-8 border-b-8 border-l-8 
+                  border-t-transparent border-b-transparent border-l-[#34b790]"></div>
+            </div>
+          </div>
+
+          <div class="bg-white p-5 rounded-lg shadow-md">
+            <h3 class="text-lg font-bold font-['Roboto'] text-gray-800">Acquisition of Key Operational Licenses</h3>
+            <p class="text-sm font-['Roboto'] text-gray-600 mt-1">
+              Raffcomm obtained essential licenses for:
+            </p>
+            <ul class="text-sm font-['Roboto'] text-[#63657e] space-y-">
+          <li>• Certification Authority</li>
+          <li>• Repository Recognition</li>
+          <li>• Date/Time Stamp Service</li>
+        </ul>
+          </div>
+        </div>
+
+        <!-- Timeline Item 2 -->
+        <div class="mb-12 ml-6 relative">
+          <div class="absolute -left-24 top-0 flex items-center">
+            <div class="relative bg-[#93dbe5] text-[#1b494f] text-sm font-bold px-4 py-2 rounded-full shadow">
+              2020
+              <div class="absolute left-full top-1/2 -translate-y-1/2 w-0 h-0 
+                  border-t-8 border-b-8 border-l-8 
+                  border-t-transparent border-b-transparent border-l-[#35adbd]"></div>
+            </div>
+          </div>
+          <div class="bg-white p-5 rounded-lg shadow-md">
+            <h3 class="text-lg font-bold font-['Roboto'] text-gray-800">Launch of Nation MyGPKI Certification</h3>
+            <p class="text-sm font-['Roboto'] text-gray-600 mt-1">
+              Raffcomm introduced MyGPKI certification, strengthening secure digital identity management in Malaysia.
+            </p>
+          </div>
+        </div>
+         <!-- Timeline Item -->
+        <div class="mb-12 ml-6 relative">
+          <div class="absolute -left-24 top-0 flex items-center">
+            <div class="relative bg-[#a1e67b] text-[#284618] text-sm font-bold px-4 py-2 rounded-full shadow">
+              2022
+              <div class="absolute left-full top-1/2 -translate-y-1/2 w-0 h-0 
+                  border-t-8 border-b-8 border-l-8 
+                  border-t-transparent border-b-transparent border-l-[#68b73d]"></div>
+            </div>
+          </div>
+
+          <div class="bg-white p-5 rounded-lg shadow-md">
+            <h3 class="text-lg font-bold font-['Roboto'] text-gray-800">Launch of Cyphersign, Cloud Signing Portal</h3>
+            <p class="text-sm font-['Roboto'] text-gray-600 mt-1">
+              Raffcomm introduced Cyphersign, Malaysia's pioneering Cloud Signing Portal, offering a secure and seamless solution for online document signing.
+            </p>
+          </div>
+        </div>
+
+        <!-- Timeline Item 2 -->
+        <div class="mb-12 ml-6 relative">
+          <div class="absolute -left-24 top-0 flex items-center">
+            <div class="relative bg-[#8cd2f9] text-[#182c37] text-sm font-bold px-4 py-2 rounded-full shadow">
+              2024
+              <div class="absolute left-full top-1/2 -translate-y-1/2 w-0 h-0 
+                  border-t-8 border-b-8 border-l-8 
+                  border-t-transparent border-b-transparent border-l-[#599abe]"></div>
+            </div>
+          </div>
+          <div class="bg-white p-5 rounded-lg shadow-md">
+            <h3 class="text-lg font-bold font-['Roboto'] text-gray-800">Strategic Partnership with SigningCloud for Public Portal</h3>
+            <p class="text-sm font-['Roboto'] text-gray-600 mt-1">
+              Raffcomm partnered with SigningCloud to offer a public portal for secure digital signing.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- Vision and Mission -->
+<section class="py-12 bg-white">
+  <div class="max-w-6xl mx-auto px-8 text-center">
+    <h2 class="text-2xl font-['Roboto'] text-[#03254c] font-bold mb-12">Vision And Mission</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 relative">
+      <!-- Vision Card -->
+      <div class="relative border border-[#cedcea] rounded-[40px] p-8 shadow-md custom-box">
+        <!-- Icon -->
+        <div class="absolute -top-6 left-1/2 transform -translate-x-1/2">
+          <div class="bg-[#a5b1c9] text-white w-12 h-12 rounded-full flex items-center justify-center shadow text-xl">
+            <img src="Vision.png" alt="Vision Icon" class="w-7 h-7 object-contain" />
+          </div>
+        </div>
+        <h3 class="text-xl font-semibold text-[#03254c] mt-8 mb-4">Vision</h3>
+        <p class="text-sm text-gray-700">
+          To provide quality products and excellent services in the Information Communications Technology (ICT) and Telecommunication industries, bearing in mind customer satisfaction and quality services.
+        </p>
+      </div>
+
+      <!-- Mission Card -->
+      <div class="relative border border-[#cedcea] rounded-[40px] p-8 shadow-md custom-box">
+        <!-- Icon -->
+        <div class="absolute -top-6 left-1/2 transform -translate-x-1/2">
+          <div class="bg-[#a5b1c9] text-white w-12 h-12 rounded-full flex items-center justify-center shadow text-xl">
+            <img src="Mission.png" alt="Mission Icon" class="w-7 h-7 object-contain" />
+          </div>
+        </div>
+        <h3 class="text-xl font-semibold text-[#03254c] mt-8 mb-4">Mission</h3>
+        <p class="text-sm text-gray-700">
+          To be a leading company in providing fast, efficient and high-quality services in ICT, Telecommunication and other technology related industries, as reflected in our company motto “We Keep IT Different”.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Board of Directors -->
+  <section class="max-w-5xl mx-auto py-12 px-8">
+    <h2 class="text-2xl font-bold mb-8 text-center">Board of Directors</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+      <div>
+        <img src="DatukAffendi.png" alt="Chairman" class="mx-auto mb-4 rounded shadow">
+        <h3 class="font-semibold">Datuk Md Afendi Bin Hamdan</h3>
+        <p>Executive Chairman</p>
+      </div>
+
+        <div>
+        <img src="DatukAffendi.png" alt="Director" class="mx-auto mb-4 rounded shadow">
+        <h3 class="font-semibold">Dato' Abdul Aziz bin Ishak</h3>
+        <p>Director</p>
+      </div>
+
+        <div>
+        <img src="EncikDzarfan.png" alt="Director2" class="mx-auto mb-4 rounded shadow">
+        <h3 class="font-semibold">Mohd Dzarfan Bin Khalid</h3>
+        <p>Director</p>
+      </div>
+      <!-- Add more directors -->
+    </div>
+  </section>
+
+  <!-- Management -->
+  <section class="py-12">
+    <div class="max-w-5xl mx-auto px-8">
+      <h2 class="text-2xl font-bold mb-8 text-center">Management</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+        <div>
+          <img src="PuanHaniza.png" alt="CEO" class="mx-auto mb-4 rounded shadow">
+          <h3 class="font-semibold">En. Ahmad Shahril Bin Ibrahim</h3>
+          <p>Group Chief Executive Officer</p>
+        </div>
+
+         <div>
+          <img src="PuanHaniza.png" alt="CFO" class="mx-auto mb-4 rounded shadow">
+          <h3 class="font-semibold">Haniza Binti Abas</h3>
+          <p>Chief Finance Officer</p>
+        </div>
+
+           <div>
+          <img src="EncikWan.png" alt="CSDO" class="mx-auto mb-4 rounded shadow">
+          <h3 class="font-semibold">Wan Zuraidi bin Wan Ismail</h3>
+          <p>Chief Service & Delivery Officer</p>
+        </div>
+        <!-- Below more management team -->
+
+        <div>
+          <img src="PuanRozaina.png" alt="CBO" class="mx-auto mb-4 rounded shadow">
+          <h3 class="font-semibold">Rozaina binti Shafie </h3>
+          <p>Chief Business Officer</p>
+        </div>
+
+        <div>
+          <img src="EncikWan.png" alt="CTO" class="mx-auto mb-4 rounded shadow">
+          <h3 class="font-semibold">Sallehuddin Abd Latif</h3>
+          <p>Chief Technology Officer</p>
+        </div>
+        <div>
+          <img src="EncikWan.png" alt="CHRO" class="mx-auto mb-4 rounded shadow">
+          <h3 class="font-semibold">Mohd Ikram bin Abdol Razak</h3>
+          <p>Chief Human Resources Officer</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+ <!-- Footer -->
+  <footer class="bg-white text-sm mt-16 border-t">
+    <div class="max-w-6xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div>
+        <h4 class="font-semibold mb-2">Raffcomm Technologies Sdn. Bhd.</h4>
+        <p>Company No: 201001015771 (100449-W)</p>
+        <p>Lot 32.02, Level 32, Sunway Putra Tower, 100, Jalan Putra, 50350 Kuala Lumpur</p>
+        <p>+603 4040 0195</p>
+        <p class="mt-2 font-semibold">CA Operational License - LPBP-4/2024 (2)</p>
+        <p class="font-semibold">Recognized Repositories - PPR-4/2024 (2)</p>
+        <p class="font-semibold">Date/Time Stamp - PPTM-3/2024 (2)</p>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-2">Quick Links</h4>
+        <ul class="space-y-1">
+          <li><a href="#" class="hover:text-blue-600">Products</a></li>
+          <li><a href="#" class="hover:text-blue-600">Solutions</a></li>
+          <li><a href="#" class="hover:text-blue-600">Services</a></li>
+          <li><a href="#" class="hover:text-blue-600">Digital Transformation</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold mb-2">Acknowledgments</h4>
+        <div class="acknowledgment-logos">
+          <img src="WebTrust.png" alt="WebTrust" class="WebTrust">
+          <img src="Mcmc.png" alt="MCMC" class="MCMC">
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+        <img src="https://www.rafftech.my/assets/img/rafftech.png"  class="logorafftech">
+      © 2025 Raffcomm Technologies Sdn Bhd. All Rights Reserved
+    <div class="socials">
+      <a href="#"><img src="facebook.png"/></a>
+      <a href="#"><img src="youtube.png"/></a>
+      <a href="#"><img src="ig.png"/></a>
+      <a href="#"><img src="linkedin.png"/></a>
+    </div>
+    </div>     
+    </div>
+  </footer>
+
+    </body>
+    </html>
