@@ -1,0 +1,307 @@
+/* Header Section */
+.header-bg {
+  background: linear-gradient(to bottom, #d8e2f1, #fefefe);
+  padding: 3em 0 2em;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
+}
+.titleLanding {
+  padding-top: 120px; /* Adjust this value to push content below navbar */
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 250px; /* Fixed height as per your design */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* This crops anything outside the container */
+  text-align: center;
+}
+
+.hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* Changed from 'auto' to fill container */
+  object-fit: cover; /* This ensures the image covers the entire space while maintaining aspect ratio */
+  z-index: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  color: #000;
+  font-size: 2rem;
+  font-weight: bold;
+}
+/* Accordion Containers */
+.accordion-container,
+.accordion2-container,
+.accordion3-container,
+.accordion4-container {
+  max-width: 1000px;
+  max-height: 15000px;
+  margin: 2em auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+/* Text Styles */
+.digitalID_FirstRow,
+.DigitalCertificate_Explanation,
+.SMIME_FirstRow,
+.ssltls_FirstRow,
+.datetimestampingexplanation,
+.DocumentSigning_FirstRow {
+  margin-top: 2px;
+  color: #281959;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.digitalID_TitleSecond,
+.ssltls_TitleSecond {
+  margin-top: 2px;
+  color: #03254C;
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 15px;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.SystemDevelopment_Title {
+  margin-top: 2px;
+  color: #1C0A83;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 64px;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+.digitalID_TitleSecond_2,
+.ssltls_TitleSecond_2 {
+  margin-top: 2px;
+  color: #1C0A83;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 64px;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.SMIME_TitleSecond_2,
+.DigitalCertificate_Explanation2 {
+  margin-top: 2px;
+  color: #1C0A83;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 64px;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+/* Button */
+.buttons button {
+  margin-left: 780px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.ContactUs-btn {
+  background-color: #2E5B92;
+  color: white;
+}
+
+/* Container and Image Layouts */
+.ContainerWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.contents_DigitalCertificateIndividual,
+.contents_ApplyDigitalCertificates {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.contents_DocumentSigning {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.IndividualOrganisationsChart,
+.OrganisationCertificateBox,
+.BasicValidationpng,
+.IDValidationpng,
+.OrganisationValidationpng {
+  width: 25%;
+  height: auto;
+  display: block;
+}
+
+.ekycsatupng,
+.ekycduapng {
+  width: 70%;
+  height: auto;
+  display: block;
+}
+
+.SSLTLSCertificates {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 800px;
+}
+
+.bubble-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+}
+
+.satububbleDigitalIDgambar,
+.duabubbleDigitalpnggambar,
+.tigabubbleDigital,
+.empatbubbleDigital {
+  width: 40%;
+  height: auto;
+  display: block;
+}
+
+.contents_ApplyDigitalCertificates {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 0;
+  gap: 20px;
+}
+
+/* Accordions */
+.accordion,
+.accordion2,
+.accordion3,
+.accordion4 {
+  background: #FAFCFF;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.accordion.active,
+.accordion2.active,
+.accordion3.active,
+.accordion4.active {
+  background-color: #F1F1F1;
+  transform: scale(1.02);
+}
+
+/* Headers */
+.header-content,
+.header2-content,
+.header3-content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.BigTitleAccordion {
+  width: 30px;
+  height: 30px;
+}
+
+.SecondTitleAccordion {
+  width: 25px;
+  height: 25px;
+}
+
+.ThirdTitleAccordion {
+  width: 20px;
+  height: 20px;
+}
+
+/* Accordion Headers */
+.accordion-header,
+.accordion2-header,
+.accordion3-header,
+.accordion4-header {
+  padding: 1em;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Arrows */
+.accordion .arrow,
+.accordion2 .arrow2,
+.accordion3 .arrow3,
+.accordion4 .arrow4 {
+  transition: transform 0.3s ease;
+}
+
+.accordion.active .arrow {
+  transform: rotate(180deg);
+}
+.accordion2.active .arrow2 {
+  transform: rotate(180deg);
+}
+.accordion3.active .arrow3 {
+  transform: rotate(180deg);
+}
+.accordion4.active .arrow4 {
+  transform: rotate(180deg);
+}
+
+/* Accordion Contents */
+.accordion-content,
+.accordion2-content,
+.accordion3-content,
+.accordion4-content {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 1.5em;
+  transition: max-height 0.5s ease, padding 0.5s ease;
+  font-size: 0.95rem;
+  color: #333;
+  background-color: #ffffff;
+}
+
+.accordion.active .accordion-content,
+.accordion2.active .accordion2-content,
+.accordion3.active .accordion3-content,
+.accordion4.active .accordion4-content {
+  max-height: 15000px;
+  padding: 1em 1.5em;
+}
